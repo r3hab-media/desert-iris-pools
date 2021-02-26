@@ -4,6 +4,39 @@
 :root {
   --color-blue: #006FBA;
   --color-yellow: #FCAF17;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --dark-gray: #3d3d3d;
+}
+
+/* text colors */
+.text-light {
+  color: var(--color-white);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+.text-black {
+  color: var(--color-black);
+}
+
+.text-darkgray {
+  color: var(--dark-gray);
+}
+
+/* background colors */
+.bg-blue {
+  background: var(--color-blue);
+}
+
+.bg-yellow {
+  background: var(--color-yellow);
 }
 
 
@@ -72,11 +105,17 @@ button {
 	font-size: 1.2rem;
 }
 
-button.primary {
+button.yellow {
+	background: var(--color-yellow);
+	border: 2px solid darkgoldenrod;
+	color: var(--color-black);
+}
+
+/* button.primary {
 	background: transparent;
 	border: 2px solid white;
 	color: white;
-}
+} */
 
 /* 320px Media Query */
 @media (min-width: 320px) {
